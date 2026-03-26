@@ -15,3 +15,5 @@ LINUX TERMINAL IS NEEDED FOR THIS
 3. Go into the project folder by running "cd project19-browser-template"
 4. Install dependencies by running "npm install"
 5. Start the browser with "npm start"
+
+You can change ANYTHING in your browser and it's actually highly recommended to do so. 
