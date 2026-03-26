@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Browser</title>
+</head>
+<body>
+<div>
+<button onclick="goBack()">⬅</button>
+<button onclick="goForward()">➡</button>
+<button onclick="reload()">🔄</button>
+<input id="url" type="text" placeholder="Enter URL" style="width:60%">
+<button onclick="loadURL()">Go</button>
+</div>
+
+<webview id="view" src="https://google.com" style="width:100%; height:90vh;"></webview>
+
+<script src="renderer.js"></script>
+</body>
+</html>
